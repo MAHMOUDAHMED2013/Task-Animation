@@ -1,0 +1,334 @@
+*{
+    margin: 0;
+    padding: 0;
+   }
+body{
+    background-color: black;
+    
+}
+
+h1{
+    font-style: italic;
+    font-family:'Bebas Neue', sans-serif;
+    font-family:'Oleo Script Swash Caps', cursive;;
+  color: rgb(109, 109, 109);
+    text-align: center;
+    font-size: 50px;
+}
+
+
+/* /////////////////////////// */
+.d1{
+    
+    display: flex;
+    flex-direction: row;
+    width: 1900px;
+    height: 40px;
+    border: 1px solid gray;
+  margin: 50px auto;
+ border-radius: 20px;
+background-color: rgb(109, 109, 109);
+position: relative;
+
+
+}
+.img1{
+    position: relative;
+    animation-name: ma1;
+    animation-duration: 5s;
+    margin-top: -20px;
+    animation-fill-mode:both;
+}
+@keyframes ma1{
+
+    0%{
+        left: 0;
+
+    }
+    100%{
+        left: 1800px;
+    }
+
+}
+/* //////////////////////////////////// */
+.d2{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 1900px;
+    height: 40px;
+    border: 1px solid gray;
+  margin: 50px auto;
+ border-radius: 20px;
+ margin-top: -20px;
+ background-color: rgb(109, 109, 109);
+}
+.img2{
+    
+    position: relative;
+    animation-name: ma2;
+    animation-duration: 5s;
+    margin-top: -20px;
+    animation-fill-mode:both;
+    animation-delay: 5s;
+}
+@keyframes ma2{
+
+    0%{
+        right: 0;
+
+    }
+    100%{
+        right: 1800px;
+    }
+}
+/* ///////////////////////////////// */
+.d3{
+    display: flex;
+    flex-direction: row;
+    width: 1900px;
+    height: 40px;
+    border: 1px solid gray;
+  margin: 50px auto;
+ border-radius: 20px;
+ background-color: rgb(109, 109, 109);
+ margin-top: -20px;
+}
+.img3{
+    position: relative;
+    animation-name: ma3;
+    animation-duration: 5s;
+    margin-top: -20px;
+    animation-fill-mode:both;
+    animation-delay: 10s;
+}
+@keyframes ma3{
+
+    0%{
+        left: 0;
+
+    }
+    100%{
+        left: 1800px;
+    }
+
+}
+/* ///////////////////////////////////////////// */
+.d4{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 1900px;
+    height: 40px;
+    border: 1px solid gray;
+  margin: 50px auto;
+ border-radius: 20px;
+ margin-top: -20px;
+ background-color: rgb(109, 109, 109);
+}
+
+.img4{
+    
+    position: relative;
+    animation-name: ma4;
+    animation-duration: 5s;
+    margin-top: -20px;
+    animation-fill-mode:both;
+    animation-delay: 15s;
+}
+@keyframes ma4{
+
+    0%{
+        right: 0;
+
+    }
+    100%{
+        right: 1800px;
+    }
+}
+/* ///////////////////////////////////////// */
+.d5{
+    display: flex;
+    flex-direction: row;
+    width: 1900px;
+    height: 40px;
+    border: 1px solid gray;
+  margin: 50px auto;
+ border-radius: 20px;
+ background-color: rgb(109, 109, 109);
+ margin-top: -20px;
+}
+.img5{
+    position: relative;
+    animation-name: ma5;
+    animation-duration: 5s;
+    margin-top: -20px;
+    animation-fill-mode:both;
+    animation-delay: 20s;
+}
+@keyframes ma5{
+
+    0%{
+        left: 0;
+
+    }
+    100%{
+        left: 1800px;
+    }
+
+}
+/* //////////////////////////////////////////////////////// */
+.d6{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 1900px;
+    height: 40px;
+    border: 1px solid gray;
+  margin: 50px auto;
+ border-radius: 20px;
+ margin-top: -20px;
+ background-color: rgb(109, 109, 109);
+ 
+}
+.img6{
+    
+    position: relative;
+    animation-name: ma6;
+    animation-duration: 5s;
+    margin-top: -20px;
+    animation-fill-mode:both;
+    animation-delay: 25s;
+}
+@keyframes ma6{
+
+    0%{
+        right: 0;
+
+    }
+    100%{
+        right: 1800px;
+    }
+}
+/* /////////////////////////////////////////// */
+.d7{
+    display: flex;
+    flex-direction: row;
+    width: 1900px;
+    height: 40px;
+    border: 1px solid gray;
+  margin: 50px auto;
+ border-radius: 20px;
+ background-color: rgb(109, 109, 109);
+ margin-top: -30px;
+}
+.img7{
+    position: relative;
+    animation-name: ma7;
+    animation-duration: 5s;
+    margin-top: -20px;
+    animation-fill-mode:both;
+    animation-delay: 30s;
+}
+@keyframes ma7{
+
+    0%{
+        left: 0;
+
+    }
+    100%{
+        left: 1800px;
+    }
+
+}
+/* ////////////////////////////////////// */
+.d8{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 1900px;
+    height: 40px;
+    border: 1px solid gray;
+  margin: 50px auto;
+ border-radius: 20px;
+ margin-top: -20px;
+ background-color: rgb(109, 109, 109);
+ 
+}
+.img8{
+    
+    position: relative;
+    animation-name: ma8;
+    animation-duration: 5s;
+    margin-top: -20px;
+    animation-fill-mode:both;
+    animation-delay: 35s;
+}
+@keyframes ma8{
+
+    0%{
+        right: 0;
+
+    }
+    100%{
+        right: 1800px;
+    }
+}
+/* //////////////////////////////////////////////// */
+ h2{
+      text-align: center;
+    font-size: 50px;
+    font-style: italic;
+    font-family:'Bebas Neue', sans-serif;
+    font-family:'Oleo Script Swash Caps', cursive;;
+  color: rgb(109, 109, 109);
+   margin-top: 100px;
+
+   animation-name: fall;
+   animation-duration:5s;
+    animation-iteration-count: 8; 
+    animation-delay: 2.s;
+ 
+}
+@keyframes fall{
+    15%{
+        transform: rotate(0) translateX(0);
+        opacity: 1;
+        animation-timing-function: cubic-bezier(.07,2.02,.67,.57);
+    }
+    50%,60%{
+        transform: rotate(-90deg) translateX(0);
+        opacity: .2;
+        animation-timing-function: cubic-bezier(.13,.84,.82,1);
+         }
+
+         85%{
+        transform: rotate(-90deg) translateX(-200px);
+opacity: 0;
+
+         }
+} 
+
+/*////////////////////////////////////// */
+.container{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    background-color: rgba(255, 255, 255, 0.712);
+    border: none;
+    padding: 5px 25px;
+    display: inline-block;
+    margin-top: 70px;
+    border-radius: 3px;
+    color: black;
+    position: relative;
+    direction: rtl;
+    animation: btn 0.5s cubic-bezier(.1,.25,.1,1) 0s infinite alternate both;
+}
+@keyframes btn{
+    0%{
+        bottom: 0;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    }
+    100%{
+        bottom: 30px;
+        box-shadow: 0 50px 50px rgba(0,0,0,0.1);
+    }
+}
